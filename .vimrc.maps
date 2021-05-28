@@ -1,3 +1,5 @@
+nnoremap <leader>f :Prettier<CR>
+
 noremap <S-C-p> "0p
 " Delete without yank
 nnoremap <leader>d "_d
@@ -12,6 +14,12 @@ nnoremap dw vb"_d
 
 " Select all
 nmap <C-a> gg<S-v>G
+
+" Move line
+nnoremap <S-Up> :m-2<CR>
+nnoremap <S-Down> :m+<CR>
+inoremap <S-Up> <Esc>:m-2<CR>
+inoremap <S-Down> <Esc>:m+<CR>
 
 " Open BufExplorer
 nmap \\ \be

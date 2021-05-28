@@ -40,3 +40,4 @@ set -gx PATH /Library/Apple/usr/bin $PATH
 set -gx PATH /Library/Frameworks/Python.framework/Versions/3.9/bin $PATH
 set -gx PATH /Users/chunn/Library/Python/3.9/bin $PATH
 set -gx PATH /Users/chunn/.yarn/bin $PATH
+
