@@ -25,6 +25,7 @@ set backspace=start,eol,indent
 " TextEdit might fail if hidden is not set.
 set hidden
 
+" ENTER
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 
 " Use K to show documentation in preview window.
@@ -40,6 +41,11 @@ function! s:show_documentation()
   endif
 endfunction
 
+" Add status line support, for integration with other plugin, checkout `:h coc-status`
+set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+
+" Prettier
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " indents
 filetype indent on
@@ -55,6 +61,12 @@ autocmd InsertLeave * set nopaste
 " Add asterisks in block comments
 set formatoptions+=r
 
+" GoTo code navigation.
+nmap <silent> gd :call CocAction('jumpDefinition', 'vsplit')<CR>
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
 autocmd FileType coffee setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
@@ -62,7 +74,7 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 " JavaScript
 au BufNewFile,BufRead *.es6 setf javascript
 " TypeScript
-au BufNewFile,BufRead *.tsx setf typescript
+au BufNewFile,BufRead *.tsx setf typescript.tsx
 " Markdown
 au BufNewFile,BufRead *.md set filetype=markdown
 " Flow
@@ -76,7 +88,7 @@ set cursorline
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
 
-highlight LineNr       cterm=none ctermfg=240 guifg=#2b506e guibg=#000000
+highlight LineNr cterm=none ctermfg=240 guifg=#2b506e guibg=#000000
 
 augroup BgHighlight
   autocmd!
@@ -106,14 +118,24 @@ let g:user_emmet_settings={
 \  },
 \}
 
-"-------------------------------------------------------------------------------
-" THEME
-"-------------------------------------------------------------------------------
-runtime ./colors/NeoSolarized.vim
+let g:user_emmet_settings={
+\ 'typescript' : {
+\   'extends' : 'tsx',
+\    'default_attributes' : {
+\      'class': { 'className': ' '},
+\    },
+\  },
+\}
 
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 
 let g:indentLine_char = '▏'
 
+autocmd Filetype json
+  \ let g:indentLine_setConceal = 0 |
+  \ let g:vim_json_syntax_conceal = 0
+
+" vim-json
+let g:vim_json_syntax_conceal = 0
+
 source ~/.vimrc.maps
-source ~/.vimrc.lightline

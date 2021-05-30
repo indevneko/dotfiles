@@ -19,6 +19,7 @@ alias lla "ll -A"
 alias g git
 alias vim "nvim"
 alias y "yarn"
+alias c "clear"
 command -qv nvim && alias vim nvim
 
 if type -q exa
