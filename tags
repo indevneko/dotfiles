@@ -1,0 +1,325 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/chunn/dotfiles/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/cab98283/
+*	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> *$/;"	m
+.	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> .$/;"	m
+;	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> ;$/;"	m
+;;	.config/nvim/plugged/denite.vim	/^nnoremap <silent> ;; :<C-u>Denite command command_history<CR>$/;"	m
+;f	.config/nvim/plugged/denite.vim	/^nnoremap <silent> ;f :<C-u>Denite file\/rec<CR>$/;"	m
+;p	.config/nvim/plugged/denite.vim	/^nnoremap <silent> ;p :<C-u>Denite -resume<CR>$/;"	m
+;r	.config/nvim/plugged/denite.vim	/^nnoremap <silent> ;r :<C-u>Dgrep<CR>$/;"	m
+<C-g>	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> <C-g>$/;"	m
+<C-l>	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> <C-l>$/;"	m
+<C-n>	.config/nvim/plugged/denite.vim	/^    imap <silent><buffer> <C-n> <Plug>(denite_filter_quit)<DOWN>$/;"	m
+<C-p>	.config/nvim/plugged/denite.vim	/^    imap <silent><buffer> <C-p> <Plug>(denite_filter_quit)<UP>$/;"	m
+<CR>	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> <CR>$/;"	m
+<CR>	.config/nvim/plugged/denite.vim	/^    imap <silent><buffer> <CR> <Plug>(denite_filter_quit)<CR>$/;"	m
+<CR>	.config/nvim/plugged/denite.vim	/^    nnoremap <silent><buffer><expr> <CR>$/;"	m
+<Space>	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> <Space>$/;"	m
+<Space>	.config/nvim/plugged/denite.vim	/^    nnoremap <silent><buffer><expr> <Space>$/;"	m
+<cr>	.vimrc	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\\<C-g>u\\<CR>\\<c-r>=coc#o/;"	m
+<leader>ac	.vimrc	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
+<leader>qf	.vimrc	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
+C	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> C$/;"	m
+Defx	.config/nvim/plugged/defx.vim	/^      \\ Defx$/;"	c
+Denite	.config/nvim/plugged/denite.vim	/^      \\ Denite$/;"	c
+DeniteBufferDir	.config/nvim/plugged/denite.vim	/^      \\ DeniteBufferDir$/;"	c
+DeniteCursorWord	.config/nvim/plugged/denite.vim	/^      \\ DeniteCursorWord$/;"	c
+DeniteProjectDir	.config/nvim/plugged/denite.vim	/^      \\ DeniteProjectDir$/;"	c
+Dgrep	.config/nvim/plugged/denite.vim	/^command! -nargs=? Dgrep call s:Dgrep(<f-args>)$/;"	c
+Dnext	.config/nvim/plugged/denite.vim	/^command! Dnext execute(':Denite -resume -buffer-name=grep-buffer-denite -cursor-pos=+1 -immediat/;"	c
+Dprev	.config/nvim/plugged/denite.vim	/^command! Dprev execute(':Denite -resume -buffer-name=grep-buffer-denite -cursor-pos=-1 -immediat/;"	c
+Dresume	.config/nvim/plugged/denite.vim	/^command! Dresume execute(':Denite -resume -buffer-name=grep-buffer-denite '.join(s:denite_option/;"	c
+E	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> E$/;"	m
+JsonToJsonc	.vimrc	/^augroup JsonToJsonc$/;"	a
+K	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> K$/;"	m
+K	.vimrc	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+M	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> M$/;"	m
+N	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> N$/;"	m
+P	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> P$/;"	m
+Prettier	.vimrc	/^command! -nargs=0 Prettier :CocCommand prettier.formatFile$/;"	c
+S	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> S$/;"	m
+[denite]	.config/nvim/plugged/denite.vim	/^nnoremap [denite] <Nop>$/;"	m
+[denite]<C-g>	.config/nvim/plugged/denite.vim	/^nnoremap <silent> [denite]<C-g> :<C-u>Denite -buffer-name=search -no-empty grep<CR>$/;"	m
+[denite]<C-n>	.config/nvim/plugged/denite.vim	/^nnoremap <silent> [denite]<C-n> :<C-u>Denite -resume -cursor-pos=+1 -immediately<CR>$/;"	m
+[denite]<C-p>	.config/nvim/plugged/denite.vim	/^nnoremap <silent> [denite]<C-p> :<C-u>Denite -resume -cursor-pos=-1 -immediately<CR>$/;"	m
+[denite]<C-r>	.config/nvim/plugged/denite.vim	/^nnoremap <silent> [denite]<C-r> :<C-u>Denite -resume<CR>$/;"	m
+\x21	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> !$/;"	m
+bg	.tmux.conf	/^set -g window-status-format "#[fg=colour252, bg=color0] #I: #W "$/;"	k
+c	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> c$/;"	m
+cd	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> cd$/;"	m
+clap_match_color	.config/nvim/colors/Nord.vim	/^  let clap_match_color = s:clap_matches[s:nord_clap_match_i % len(s:clap_matches) - 1]$/;"	v
+colors_name	.config/nvim/colors/NeoSolarized.vim	/^let colors_name = "NeoSolarized"$/;"	v
+d	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> d$/;"	m
+d	.config/nvim/plugged/denite.vim	/^    nnoremap <silent><buffer><expr> d$/;"	m
+denite_filter	.config/nvim/plugged/denite.vim	/^augroup denite_filter$/;"	a
+fi	.config/nvim/plugged/defx.vim	/^nnoremap <silent>fi :<C-u>Defx -new `expand('%:p:h')` -search=`expand('%:p')`<CR>$/;"	m
+g:airline_solarized_bg	.vimrc	/^let g:airline_solarized_bg='dark'$/;"	v
+g:colors_name	.config/nvim/colors/Nord.vim	/^let g:colors_name = "nord"$/;"	v
+g:indentLine_char	.vimrc	/^let g:indentLine_char = '▏'$/;"	v
+g:loaded_defx	.config/nvim/plugged/defx.vim	/^let g:loaded_defx = 1$/;"	v
+g:loaded_denite	.config/nvim/plugged/denite.vim	/^let g:loaded_denite = 1$/;"	v
+g:neosolarized_bold	.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_bold = get(g:, "neosolarized_bold", 1)$/;"	v
+g:neosolarized_bold	.config/nvim/init.vim	/^let g:neosolarized_bold = 1$/;"	v
+g:neosolarized_contrast	.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_contrast = get(g:, "neosolarized_contrast", "high")$/;"	v
+g:neosolarized_contrast	.config/nvim/init.vim	/^let g:neosolarized_contrast = "high"$/;"	v
+g:neosolarized_diffmode	.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_diffmode = get(g:, "neosolarized_diffmode", "normal")$/;"	v
+g:neosolarized_italic	.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_italic = get(g:, "neosolarized_italic", 0)$/;"	v
+g:neosolarized_termtrans	.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_termtrans = get(g:, "neosolarized_termtrans", 0)$/;"	v
+g:neosolarized_underline	.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_underline = get(g:, "neosolarized_underline", 1)$/;"	v
+g:neosolarized_vertSplitBgTrans	.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_vertSplitBgTrans = get(g:, "neosolarized_vertSplitBgTrans", 1)$/;"	v
+g:neosolarized_visibility	.config/nvim/colors/NeoSolarized.vim	/^let g:neosolarized_visibility = get(g:, "neosolarized_visibility", "normal")$/;"	v
+g:nord_bold	.config/nvim/colors/Nord.vim	/^  let g:nord_bold = 1$/;"	v
+g:nord_bold_vertical_split_line	.config/nvim/colors/Nord.vim	/^  let g:nord_bold_vertical_split_line = 0$/;"	v
+g:nord_comment_brightness	.config/nvim/colors/Nord.vim	/^  let g:nord_comment_brightness = 10$/;"	v
+g:nord_cursor_line_number_background	.config/nvim/colors/Nord.vim	/^  let g:nord_cursor_line_number_background = 0$/;"	v
+g:nord_italic	.config/nvim/colors/Nord.vim	/^    let g:nord_italic = 0$/;"	v
+g:nord_italic	.config/nvim/colors/Nord.vim	/^    let g:nord_italic = 1$/;"	v
+g:nord_uniform_diff_background	.config/nvim/colors/Nord.vim	/^  let g:nord_uniform_diff_background = 0$/;"	v
+g:nord_uniform_status_lines	.config/nvim/colors/Nord.vim	/^  let g:nord_uniform_status_lines = 0$/;"	v
+g:rainbow_active	.vimrc	/^let g:rainbow_active = 1$/;"	v
+g:terminal_ansi_colors	.config/nvim/colors/Nord.vim	/^  let g:terminal_ansi_colors = [s:nord1_gui, s:nord11_gui, s:nord14_gui, s:nord13_gui, s:nord9_g/;"	v
+g:terminal_color_0	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_0 = s:gui_base03$/;"	v
+g:terminal_color_0	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_0 = s:nord1_gui$/;"	v
+g:terminal_color_1	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_1 = s:gui_red$/;"	v
+g:terminal_color_1	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_1 = s:nord11_gui$/;"	v
+g:terminal_color_10	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_10 = s:gui_base01$/;"	v
+g:terminal_color_10	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_10 = s:nord14_gui$/;"	v
+g:terminal_color_11	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_11 = s:gui_base00$/;"	v
+g:terminal_color_11	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_11 = s:nord13_gui$/;"	v
+g:terminal_color_12	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_12 = s:gui_base0$/;"	v
+g:terminal_color_12	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_12 = s:nord9_gui$/;"	v
+g:terminal_color_13	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_13 = s:gui_violet$/;"	v
+g:terminal_color_13	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_13 = s:nord15_gui$/;"	v
+g:terminal_color_14	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_14 = s:gui_base1$/;"	v
+g:terminal_color_14	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_14 = s:nord7_gui$/;"	v
+g:terminal_color_15	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_15 = s:gui_base3$/;"	v
+g:terminal_color_15	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_15 = s:nord6_gui$/;"	v
+g:terminal_color_2	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_2 = s:gui_green$/;"	v
+g:terminal_color_2	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_2 = s:nord14_gui$/;"	v
+g:terminal_color_3	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_3 = s:gui_yellow$/;"	v
+g:terminal_color_3	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_3 = s:nord13_gui$/;"	v
+g:terminal_color_4	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_4 = s:gui_blue$/;"	v
+g:terminal_color_4	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_4 = s:nord9_gui$/;"	v
+g:terminal_color_5	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_5 = s:gui_magenta$/;"	v
+g:terminal_color_5	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_5 = s:nord15_gui$/;"	v
+g:terminal_color_6	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_6 = s:gui_cyan$/;"	v
+g:terminal_color_6	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_6 = s:nord8_gui$/;"	v
+g:terminal_color_7	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_7 = s:gui_base2$/;"	v
+g:terminal_color_7	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_7 = s:nord5_gui$/;"	v
+g:terminal_color_8	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_8 = s:gui_base02$/;"	v
+g:terminal_color_8	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_8 = s:nord3_gui$/;"	v
+g:terminal_color_9	.config/nvim/colors/NeoSolarized.vim	/^let g:terminal_color_9 = s:gui_orange$/;"	v
+g:terminal_color_9	.config/nvim/colors/Nord.vim	/^  let g:terminal_color_9 = s:nord11_gui$/;"	v
+g:user_emmet_leader_key	.vimrc	/^let g:user_emmet_leader_key=','$/;"	v
+g:user_emmet_settings	.vimrc	/^let g:user_emmet_settings={$/;"	v
+g:vim_json_syntax_conceal	.vimrc	/^let g:vim_json_syntax_conceal = 0$/;"	v
+gd	.vimrc	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gi	.vimrc	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	.vimrc	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gy	.vimrc	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+h	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> h$/;"	m
+hs_highlight_boolean	.config/nvim/colors/NeoSolarized.vim	/^let hs_highlight_boolean=1$/;"	v
+hs_highlight_delimiters	.config/nvim/colors/NeoSolarized.vim	/^let hs_highlight_delimiters=1$/;"	v
+i	.config/nvim/plugged/denite.vim	/^    nnoremap <silent><buffer><expr> i$/;"	m
+j	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> j$/;"	m
+k	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> k$/;"	m
+l	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> l$/;"	m
+m	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> m$/;"	m
+o	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> o$/;"	m
+p	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> p$/;"	m
+p	.config/nvim/plugged/denite.vim	/^    nnoremap <silent><buffer><expr> p$/;"	m
+q	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> q$/;"	m
+q	.config/nvim/plugged/denite.vim	/^    nnoremap <silent><buffer><expr> q$/;"	m
+r	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> r$/;"	m
+s:Dgrep	.config/nvim/plugged/denite.vim	/^function s:Dgrep(...)$/;"	f
+s:b	.config/nvim/colors/NeoSolarized.vim	/^    let s:b           = ""$/;"	v
+s:b	.config/nvim/colors/NeoSolarized.vim	/^    let s:b           = ",bold"$/;"	v
+s:bb	.config/nvim/colors/NeoSolarized.vim	/^    let s:bb          = ""$/;"	v
+s:bb	.config/nvim/colors/NeoSolarized.vim	/^    let s:bb          = ",bold"$/;"	v
+s:bold	.config/nvim/colors/Nord.vim	/^  let s:bold = ""$/;"	v
+s:bold	.config/nvim/colors/Nord.vim	/^let s:bold = "bold,"$/;"	v
+s:c	.config/nvim/colors/NeoSolarized.vim	/^    let s:c               = ",undercurl"$/;"	v
+s:clap_matches	.config/nvim/colors/Nord.vim	/^let s:clap_matches = [$/;"	v
+s:defx_my_settings	.config/nvim/plugged/defx.vim	/^	function! s:defx_my_settings() abort$/;"	f
+s:denite_default_options	.config/nvim/plugged/denite.vim	/^let s:denite_default_options = {$/;"	v
+s:denite_my_settings	.config/nvim/plugged/denite.vim	/^  function! s:denite_my_settings() abort$/;"	f
+s:denite_option_array	.config/nvim/plugged/denite.vim	/^let s:denite_option_array = []$/;"	v
+s:denite_win_height_percent	.config/nvim/plugged/denite.vim	/^let s:denite_win_height_percent = 0.7$/;"	v
+s:denite_win_width_percent	.config/nvim/plugged/denite.vim	/^let s:denite_win_width_percent = 0.8$/;"	v
+s:fg_pdef	.config/nvim/colors/NeoSolarized.vim	/^let s:fg_pdef = s:fg_violet$/;"	v
+s:fg_phead	.config/nvim/colors/NeoSolarized.vim	/^let s:fg_phead = s:fg_orange$/;"	v
+s:fg_ptable	.config/nvim/colors/NeoSolarized.vim	/^let s:fg_ptable = s:fg_blue$/;"	v
+s:gui_back	.config/nvim/colors/NeoSolarized.vim	/^        let s:gui_back  =   s:gui_base03$/;"	v
+s:gui_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_back        = "NONE"$/;"	v
+s:gui_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_back        = s:gui_back$/;"	v
+s:gui_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_back        = s:gui_base02$/;"	v
+s:gui_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_back        = s:gui_base03$/;"	v
+s:gui_base0	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base0       = "#839496"$/;"	v
+s:gui_base0	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base0       = s:gui_base1$/;"	v
+s:gui_base0	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base0     =   s:gui_temp00$/;"	v
+s:gui_base00	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base00      = "#657b83"$/;"	v
+s:gui_base00	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base00      = s:gui_base0$/;"	v
+s:gui_base00	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base00    =   s:gui_base0$/;"	v
+s:gui_base01	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base01      = "#586e75"$/;"	v
+s:gui_base01	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base01      = s:gui_base00$/;"	v
+s:gui_base01	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base01    =   s:gui_base1$/;"	v
+s:gui_base02	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base02      = "#073642"$/;"	v
+s:gui_base02	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base02    =   s:gui_base2$/;"	v
+s:gui_base03	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base03      = "#002b36"$/;"	v
+s:gui_base03	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base03    =   s:gui_base3$/;"	v
+s:gui_base1	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base1       = "#93a1a1"$/;"	v
+s:gui_base1	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base1       = s:gui_base2$/;"	v
+s:gui_base1	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base1     =   s:gui_temp01$/;"	v
+s:gui_base2	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base2       = "#eee8d5"$/;"	v
+s:gui_base2	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base2       = s:gui_base3$/;"	v
+s:gui_base2	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base2     =   s:gui_temp02$/;"	v
+s:gui_base3	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base3       = "#fdf6e3"$/;"	v
+s:gui_base3	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_base3     =   s:gui_temp03$/;"	v
+s:gui_blue	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_blue        = "#268bd2"$/;"	v
+s:gui_cyan	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_cyan        = "#2aa198"$/;"	v
+s:gui_green	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_green       = "#719e07" "experimental$/;"	v
+s:gui_magenta	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_magenta     = "#d33682"$/;"	v
+s:gui_mode	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_mode       = "gui"$/;"	v
+s:gui_none	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_none        = "NONE"$/;"	v
+s:gui_orange	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_orange      = "#cb4b16"$/;"	v
+s:gui_red	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_red         = "#dc322f"$/;"	v
+s:gui_temp00	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_temp00    =   s:gui_base00$/;"	v
+s:gui_temp01	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_temp01    =   s:gui_base01$/;"	v
+s:gui_temp02	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_temp02    =   s:gui_base02$/;"	v
+s:gui_temp03	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_temp03    =   s:gui_base03$/;"	v
+s:gui_violet	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_violet      = "#6c71c4"$/;"	v
+s:gui_yellow	.config/nvim/colors/NeoSolarized.vim	/^    let s:gui_yellow      = "#b58900"$/;"	v
+s:hi	.config/nvim/colors/Nord.vim	/^function! s:hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)$/;"	f
+s:i	.config/nvim/colors/NeoSolarized.vim	/^    let s:i           = ""$/;"	v
+s:i	.config/nvim/colors/NeoSolarized.vim	/^    let s:i           = ",italic"$/;"	v
+s:italic	.config/nvim/colors/Nord.vim	/^  let s:italic = ""$/;"	v
+s:italic	.config/nvim/colors/Nord.vim	/^let s:italic = "italic,"$/;"	v
+s:italicize_comments	.config/nvim/colors/Nord.vim	/^    let s:italicize_comments = s:italic$/;"	v
+s:italicize_comments	.config/nvim/colors/Nord.vim	/^let s:italicize_comments = ""$/;"	v
+s:logWarning	.config/nvim/colors/Nord.vim	/^function! s:logWarning(msg)$/;"	f
+s:n	.config/nvim/colors/NeoSolarized.vim	/^    let s:n               = "NONE"$/;"	v
+s:nord0_gui	.config/nvim/colors/Nord.vim	/^let s:nord0_gui = "#2E3440"$/;"	v
+s:nord10_gui	.config/nvim/colors/Nord.vim	/^let s:nord10_gui = "#5E81AC"$/;"	v
+s:nord10_term	.config/nvim/colors/Nord.vim	/^let s:nord10_term = "12"$/;"	v
+s:nord11_gui	.config/nvim/colors/Nord.vim	/^let s:nord11_gui = "#BF616A"$/;"	v
+s:nord11_term	.config/nvim/colors/Nord.vim	/^let s:nord11_term = "1"$/;"	v
+s:nord12_gui	.config/nvim/colors/Nord.vim	/^let s:nord12_gui = "#D08770"$/;"	v
+s:nord12_term	.config/nvim/colors/Nord.vim	/^let s:nord12_term = "11"$/;"	v
+s:nord13_gui	.config/nvim/colors/Nord.vim	/^let s:nord13_gui = "#EBCB8B"$/;"	v
+s:nord13_term	.config/nvim/colors/Nord.vim	/^let s:nord13_term = "3"$/;"	v
+s:nord14_gui	.config/nvim/colors/Nord.vim	/^let s:nord14_gui = "#A3BE8C"$/;"	v
+s:nord14_term	.config/nvim/colors/Nord.vim	/^let s:nord14_term = "2"$/;"	v
+s:nord15_gui	.config/nvim/colors/Nord.vim	/^let s:nord15_gui = "#B48EAD"$/;"	v
+s:nord15_term	.config/nvim/colors/Nord.vim	/^let s:nord15_term = "5"$/;"	v
+s:nord1_gui	.config/nvim/colors/Nord.vim	/^let s:nord1_gui = "#3B4252"$/;"	v
+s:nord1_term	.config/nvim/colors/Nord.vim	/^let s:nord1_term = "0"$/;"	v
+s:nord2_gui	.config/nvim/colors/Nord.vim	/^let s:nord2_gui = "#434C5E"$/;"	v
+s:nord3_gui	.config/nvim/colors/Nord.vim	/^let s:nord3_gui = "#4C566A"$/;"	v
+s:nord3_gui_bright	.config/nvim/colors/Nord.vim	/^let s:nord3_gui_bright = "#616E88"$/;"	v
+s:nord3_gui_brightened	.config/nvim/colors/Nord.vim	/^let s:nord3_gui_brightened = [$/;"	v
+s:nord3_term	.config/nvim/colors/Nord.vim	/^let s:nord3_term = "8"$/;"	v
+s:nord4_gui	.config/nvim/colors/Nord.vim	/^let s:nord4_gui = "#D8DEE9"$/;"	v
+s:nord5_gui	.config/nvim/colors/Nord.vim	/^let s:nord5_gui = "#E5E9F0"$/;"	v
+s:nord5_term	.config/nvim/colors/Nord.vim	/^let s:nord5_term = "7"$/;"	v
+s:nord6_gui	.config/nvim/colors/Nord.vim	/^let s:nord6_gui = "#ECEFF4"$/;"	v
+s:nord6_term	.config/nvim/colors/Nord.vim	/^let s:nord6_term = "15"$/;"	v
+s:nord7_gui	.config/nvim/colors/Nord.vim	/^let s:nord7_gui = "#8FBCBB"$/;"	v
+s:nord7_term	.config/nvim/colors/Nord.vim	/^let s:nord7_term = "14"$/;"	v
+s:nord8_gui	.config/nvim/colors/Nord.vim	/^let s:nord8_gui = "#88C0D0"$/;"	v
+s:nord8_term	.config/nvim/colors/Nord.vim	/^let s:nord8_term = "6"$/;"	v
+s:nord9_gui	.config/nvim/colors/Nord.vim	/^let s:nord9_gui = "#81A1C1"$/;"	v
+s:nord9_term	.config/nvim/colors/Nord.vim	/^let s:nord9_term = "4"$/;"	v
+s:nord_vim_version	.config/nvim/colors/Nord.vim	/^let s:nord_vim_version="0.15.0"$/;"	v
+s:ob	.config/nvim/colors/NeoSolarized.vim	/^    let s:ob              = ""$/;"	v
+s:ou	.config/nvim/colors/NeoSolarized.vim	/^    let s:ou              = ""$/;"	v
+s:ou	.config/nvim/colors/NeoSolarized.vim	/^    let s:ou          = ",underline"$/;"	v
+s:r	.config/nvim/colors/NeoSolarized.vim	/^    let s:r               = ",reverse"$/;"	v
+s:s	.config/nvim/colors/NeoSolarized.vim	/^    let s:s               = ",standout"$/;"	v
+s:show_documentation	.vimrc	/^function! s:show_documentation()$/;"	f
+s:sp_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_back           =   ""$/;"	v
+s:sp_base0	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base0          =   ""$/;"	v
+s:sp_base00	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base00         =   ""$/;"	v
+s:sp_base01	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base01         =   ""$/;"	v
+s:sp_base02	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base02         =   ""$/;"	v
+s:sp_base03	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base03         =   ""$/;"	v
+s:sp_base1	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base1          =   ""$/;"	v
+s:sp_base2	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base2          =   ""$/;"	v
+s:sp_base3	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_base3          =   ""$/;"	v
+s:sp_blue	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_blue           =   ""$/;"	v
+s:sp_cyan	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_cyan           =   ""$/;"	v
+s:sp_green	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_green          =   ""$/;"	v
+s:sp_magenta	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_magenta        =   ""$/;"	v
+s:sp_none	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_none           =   ""$/;"	v
+s:sp_orange	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_orange         =   ""$/;"	v
+s:sp_red	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_red            =   ""$/;"	v
+s:sp_violet	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_violet         =   ""$/;"	v
+s:sp_yellow	.config/nvim/colors/NeoSolarized.vim	/^    let s:sp_yellow         =   ""$/;"	v
+s:term_back	.config/nvim/colors/NeoSolarized.vim	/^        let s:term_back =   s:term_base03$/;"	v
+s:term_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_back        = "NONE"$/;"	v
+s:term_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_back        = s:term_back$/;"	v
+s:term_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_back        = s:term_base02$/;"	v
+s:term_back	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_back        = s:term_base03$/;"	v
+s:term_base0	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base0       = "12"$/;"	v
+s:term_base0	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base0       = s:term_base1$/;"	v
+s:term_base0	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base0    =   s:term_temp00$/;"	v
+s:term_base00	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base00      = "11"$/;"	v
+s:term_base00	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base00      = s:term_base0$/;"	v
+s:term_base00	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base00   =   s:term_base0$/;"	v
+s:term_base01	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base01      = "10"$/;"	v
+s:term_base01	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base01      = s:term_base00$/;"	v
+s:term_base01	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base01   =   s:term_base1$/;"	v
+s:term_base02	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base02      = "0"$/;"	v
+s:term_base02	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base02   =   s:term_base2$/;"	v
+s:term_base03	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base03      = "8"$/;"	v
+s:term_base03	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base03   =   s:term_base3$/;"	v
+s:term_base1	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base1       = "14"$/;"	v
+s:term_base1	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base1       = s:term_base2$/;"	v
+s:term_base1	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base1    =   s:term_temp01$/;"	v
+s:term_base2	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base2       = "7"$/;"	v
+s:term_base2	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base2       = s:term_base3$/;"	v
+s:term_base2	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base2    =   s:term_temp02$/;"	v
+s:term_base3	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base3       = "15"$/;"	v
+s:term_base3	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_base3    =   s:term_temp03$/;"	v
+s:term_blue	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_blue        = "4"$/;"	v
+s:term_cyan	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_cyan        = "6"$/;"	v
+s:term_green	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_green       = "2"$/;"	v
+s:term_magenta	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_magenta     = "5"$/;"	v
+s:term_mode	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_mode       = "cterm"$/;"	v
+s:term_none	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_none       = "NONE"$/;"	v
+s:term_orange	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_orange      = "9"$/;"	v
+s:term_red	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_red         = "1"$/;"	v
+s:term_temp00	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_temp00   =   s:term_base00$/;"	v
+s:term_temp01	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_temp01   =   s:term_base01$/;"	v
+s:term_temp02	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_temp02   =   s:term_base02$/;"	v
+s:term_temp03	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_temp03   =   s:term_base03$/;"	v
+s:term_violet	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_violet      = "13"$/;"	v
+s:term_yellow	.config/nvim/colors/NeoSolarized.vim	/^    let s:term_yellow      = "3"$/;"	v
+s:u	.config/nvim/colors/NeoSolarized.vim	/^    let s:u           = ""$/;"	v
+s:u	.config/nvim/colors/NeoSolarized.vim	/^    let s:u           = ",underline"$/;"	v
+s:underline	.config/nvim/colors/Nord.vim	/^  let s:underline = "NONE,"$/;"	v
+s:underline	.config/nvim/colors/Nord.vim	/^let s:underline = "underline,"$/;"	v
+s:vimwiki_hcolor_ctermfg	.config/nvim/colors/Nord.vim	/^  let s:vimwiki_hcolor_ctermfg = [s:nord7_term, s:nord8_term, s:nord9_term, s:nord10_term, s:nor/;"	v
+s:vimwiki_hcolor_guifg	.config/nvim/colors/Nord.vim	/^  let s:vimwiki_hcolor_guifg = [s:nord7_gui, s:nord8_gui, s:nord9_gui, s:nord10_gui, s:nord14_gu/;"	v
+sF	.config/nvim/plugged/denite.vim	/^nmap sF [denite]$/;"	m
+sf	.config/nvim/plugged/defx.vim	/^nnoremap <silent>sf :<C-u>Defx -listed -resume$/;"	m
+style bg	.tmux.conf	/^set-option -g status-style bg=colour235,fg=colour136,default$/;"	k
+style fg	.tmux.conf	/^set -g pane-active-border-style fg=colour166,bg=default$/;"	k
+style fg	.tmux.conf	/^set -g window-active-style fg=colour12,bg=default$/;"	k
+style fg	.tmux.conf	/^set -g window-style fg=colour10,bg=default$/;"	k
+style fg	.tmux.conf	/^set-option -g pane-active-border-style fg=colour136,bg=colour235$/;"	k
+style fg	.tmux.conf	/^set-option -g pane-border-style fg=colour235 #base02$/;"	k
+style fg	.tmux.conf	/^set-window-option -g window-status-current-style fg=colour166,bg=default,bright$/;"	k
+style fg	.tmux.conf	/^set-window-option -g window-status-style fg=colour244,bg=colour234,dim$/;"	k
+t	.tmux.conf	/^bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft= '#{pane_in_mode/;"	k
+x	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> x$/;"	m
+yy	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> yy$/;"	m
+~	.config/nvim/plugged/defx.vim	/^	  nnoremap <silent><buffer><expr> ~$/;"	m

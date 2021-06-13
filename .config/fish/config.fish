@@ -1,4 +1,5 @@
 source ~/.zshrc
+fish_vi_key_bindings
 
 set fish_greeting ""
 
@@ -19,6 +20,8 @@ alias lla "ll -A"
 alias g git
 alias vim "nvim"
 alias y "yarn"
+alias d "docker"
+alias k "kubectl"
 alias c "clear"
 command -qv nvim && alias vim nvim
 
