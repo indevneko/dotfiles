@@ -41,6 +41,8 @@ Plug 'kristijanhusak/defx-icons'
 " Line Indent
 Plug 'Yggdroot/indentLine'
 
+Plug 'pantharshit00/vim-prisma'
+
 if has('nvim')
   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 else
