@@ -12,9 +12,6 @@ nnoremap - <C-x>
 " Delete a word backwards
 nnoremap dw vb"_d
 
-" Select all
-nmap <C-a> gg<S-v>G
-
 " Move line
 nnoremap <S-Up> :m-2<CR>
 nnoremap <S-Down> :m+<CR>

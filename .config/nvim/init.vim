@@ -16,7 +16,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/jsonc.vim'
 
-Plug 'mattn/emmet-vim', { 'for': ['javascript', 'jsx', 'html', 'css', 'typescript.tsx', 'typescript'] }
+Plug 'mattn/emmet-vim', { 'for': ['javascript', 'jsx', 'html', 'css', 'typescript.tsx', 'typescript', 'php'] }
 
 " these two not work for me QQ
 " Plug 'leafgarland/typescript-vim'
@@ -41,7 +41,10 @@ Plug 'kristijanhusak/defx-icons'
 " Line Indent
 Plug 'Yggdroot/indentLine'
 
-Plug 'pantharshit00/vim-prisma'
+
+" Live view html
+Plug 'turbio/bracey.vim'
+
 
 if has('nvim')
   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }

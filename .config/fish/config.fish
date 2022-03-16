@@ -1,5 +1,4 @@
 source ~/.zshrc
-fish_vi_key_bindings
 
 set fish_greeting ""
 
@@ -44,4 +43,13 @@ set -gx PATH /Library/Apple/usr/bin $PATH
 set -gx PATH /Library/Frameworks/Python.framework/Versions/3.9/bin $PATH
 set -gx PATH /Users/chunn/Library/Python/3.9/bin $PATH
 set -gx PATH /Users/chunn/.yarn/bin $PATH
+set -gx PATH ~/Library/Android/sdk/emulator $PATH
+set -gx PATH ~/Library/Android/sdk/tools $PATH
+set -gx PATH ~/Library/Android/sdk/tools/bin $PATH
+set -gx PATH ~/Library/Android/sdk/platform-tools $PATH
+set -gx PATH /usr/local/opt/ruby/bin $PATH
+set -gx PATH ~/.rbenv/bin $PATH
+set -gx PATH ~/.rbenv/shims $PATH
+set -gx PATH /usr/local/opt/ruby/bin $PATH
+set -gx PATH /usr/local/lib/ruby/gems/3.0.0/bin $PATH
 
