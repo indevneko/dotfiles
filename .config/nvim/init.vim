@@ -42,9 +42,7 @@ Plug 'kristijanhusak/defx-icons'
 Plug 'Yggdroot/indentLine'
 
 
-" Live view html
-Plug 'turbio/bracey.vim'
-
+Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
 
 if has('nvim')
   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
