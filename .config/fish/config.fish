@@ -16,6 +16,7 @@ alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
+alias lah "ll -Ah"
 alias g git
 alias vim "nvim"
 alias y "yarn"
