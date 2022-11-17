@@ -1,3 +1,8 @@
+#install fish
+#install Oh-my-fish for theme
+#install fisher for installing plugin
+#install shellder(theme) z(jump) colored_man_pages
+
 source ~/.zshrc
 
 set fish_greeting ""
@@ -19,6 +24,7 @@ alias lla "ll -A"
 alias lah "ll -Ah"
 alias g git
 alias vim "nvim"
+alias v "nvim"
 alias y "yarn"
 alias d "docker"
 alias k "kubectl"
