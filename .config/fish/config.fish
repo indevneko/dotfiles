@@ -24,7 +24,7 @@ alias lla "ll -A"
 alias lah "ll -Ah"
 alias g git
 alias vim "nvim"
-alias v "nvim"
+alias v "nvim ."
 alias y "yarn"
 alias d "docker"
 alias k "kubectl"
