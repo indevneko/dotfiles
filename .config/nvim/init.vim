@@ -55,8 +55,8 @@ if has('nvim')
   Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 
-  " coc glslx hightlighting
-  Plug 'Eric-Song-Nop/vim-glslx', { 'for': ['glsl', 'glslx'] }
+  " for coc-glslx filetype recognition
+  Plug 'Eric-Song-Nop/vim-glslx'
 else
   Plug 'Shougo/denite.nvim'
   Plug 'roxma/nvim-yarp'
@@ -64,6 +64,11 @@ else
 endif
 
 call plug#end()
+
+
+" for coc-glslx to work
+" add more filetype if needed
+autocmd! BufNewFile,BufRead *.glsl set ft=glslx
 
 
 " Open with Defx (might cause error)
