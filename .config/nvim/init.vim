@@ -4,48 +4,59 @@ source ~/.vimrc
 " THEME
 "-------------------------------------------------------------------------------
 runtime ./colors/NeoSolarized.vim
-let g:neosolarized_contrast = "high"
+let g:neosolarized_contrast = "low"
 let g:neosolarized_bold = 1
+let g:neosolarized_underline = 1
+let g:neosolarized_italic = 1
+
+" AirLine
+let g:airline_powerline_fonts = 1
+let g:airline_solarized_bg='dark'
+"-------------------------------------------------------------------------------
 
 " vim-plug
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/jsonc.vim'
 
 Plug 'mattn/emmet-vim', { 'for': ['javascript', 'jsx', 'html', 'css', 'typescript.tsx', 'typescript', 'php'] }
 
-" these two not work for me QQ
-" Plug 'leafgarland/typescript-vim'
-" Plug 'peitalin/vim-jsx-typescript'
-
-" JS
+" JS JavaScript Syntax
 Plug 'othree/yajs.vim'
-" tsx syntax!
+" tsx jsx syntax!
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty', { 'for': ['javascript'] }
 
 Plug 'jparise/vim-graphql'
 Plug 'elzr/vim-json'
-" Plug 'pangloss/vim-javascript'
 
 " Plug 'frazrepo/vim-rainbow'
 Plug 'luochen1990/rainbow'
 
-Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'kristijanhusak/defx-icons'
 
 " Line Indent
 Plug 'Yggdroot/indentLine'
+Plug 'nathanaelkane/vim-indent-guides'
+
+" surround
+Plug 'tpope/vim-surround'
 
 
-Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
 
 if has('nvim')
   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+  " defx
+  Plug 'kristijanhusak/defx-git'
+  Plug 'kristijanhusak/defx-icons'
+  Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+
+  " coc glslx hightlighting
+  Plug 'Eric-Song-Nop/vim-glslx', { 'for': ['glsl', 'glslx'] }
 else
   Plug 'Shougo/denite.nvim'
   Plug 'roxma/nvim-yarp'
@@ -54,6 +65,25 @@ endif
 
 call plug#end()
 
+
+" Open with Defx (might cause error)
+autocmd BufEnter,VimEnter,BufNew,BufWinEnter,BufRead,BufCreate
+      \ * if isdirectory(expand('<amatch>'))
+      \   | call s:browse_check(expand('<amatch>')) | endif
+
+function! s:browse_check(path) abort
+  if bufnr('%') != expand('<abuf>')
+    return
+  endif
+
+  " Disable netrw.
+  augroup FileExplorer
+    autocmd!
+  augroup END
+
+  execute 'Defx' a:path
+endfunction
+"""""""""
 
 " Define mappings
 augroup denite_filter
@@ -145,3 +175,5 @@ nnoremap <silent> ;r :<C-u>Dgrep<CR>
 nnoremap <silent> ;f :<C-u>Denite file/rec<CR>
 nnoremap <silent> ;; :<C-u>Denite command command_history<CR>
 nnoremap <silent> ;p :<C-u>Denite -resume<CR>
+
+
