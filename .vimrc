@@ -2,6 +2,7 @@
 scriptencoding utf-8
 syntax enable
 
+set updatetime=300
 set termguicolors
 set number relativenumber
 set nowrap

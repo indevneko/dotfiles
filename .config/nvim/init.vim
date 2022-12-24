@@ -19,21 +19,23 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" git wrapper
 Plug 'tpope/vim-fugitive'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'neoclide/jsonc.vim'
+" Plug 'neoclide/jsonc.vim'
 
 Plug 'mattn/emmet-vim', { 'for': ['javascript', 'jsx', 'html', 'css', 'typescript.tsx', 'typescript', 'php'] }
 
 " JS JavaScript Syntax
-Plug 'othree/yajs.vim'
+" Plug 'othree/yajs.vim'
 " tsx jsx syntax!
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'maxmellon/vim-jsx-pretty', { 'for': ['javascript'] }
 
-Plug 'jparise/vim-graphql'
-Plug 'elzr/vim-json'
+"Plug 'maxmellon/vim-jsx-pretty', { 'for': ['javascript'] }
+
+" Plug 'jparise/vim-graphql'
+"Plug 'elzr/vim-json'
 
 " Plug 'frazrepo/vim-rainbow'
 Plug 'luochen1990/rainbow'
@@ -45,6 +47,10 @@ Plug 'nathanaelkane/vim-indent-guides'
 
 " surround
 Plug 'tpope/vim-surround'
+
+Plug 'pantharshit00/vim-prisma'
+
+Plug 'ap/vim-css-color'
 
 
 
@@ -182,5 +188,3 @@ nnoremap <silent> ;r :<C-u>Dgrep<CR>
 nnoremap <silent> ;f :<C-u>Denite file/rec<CR>
 nnoremap <silent> ;; :<C-u>Denite command command_history<CR>
 nnoremap <silent> ;p :<C-u>Denite -resume<CR>
-
-
